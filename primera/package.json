@@ -1,9 +1,9 @@
 {
   "name": "primera",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
-    "homepage":"https://github.com/Leonel14v/React-Primera-Entrega",
+    "homepage":"https://leonel14v.github.io/React-Primera-Entrega/",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
