@@ -1,8 +1,11 @@
 .carrito-img {
-    width: 60px;
     margin-right: 30px;
+    width: 60px;
+    cursor: pointer;
 }
 .numero-estatico {
     position: relative;
-    right:  35px;
+    right:  48px;
+    bottom: 14px;
+    color: white;
 }
