@@ -1,0 +1,26 @@
+.Item-imagen {
+    width: 300px;
+}
+.ProductCard {
+    display: inline-block;
+    width: 300px; /* Ajusta el ancho según tus necesidades */
+    margin: 10px; /* Espacio entre las tarjetas */
+    border: 1px solid #ccc; /* Borde para las tarjetas */
+    padding: 10px;
+    box-shadow: 0px 0px 5px 0px #ccc; /* Sombra para las tarjetas */
+  }
+.CardItem {
+    border: 1px solid #ddd;
+    padding: 10px;
+    /* Establece el ancho y alto deseado para cada tarjeta */
+    width: 300px;
+
+    /* Otros estilos según tus preferencias */
+  }
+  
+  .CardContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); /* Define las columnas de la cuadrícula */
+    gap: 20px; /* Espacio entre las tarjetas */
+    /* Otros estilos según tus preferencias */
+  }
