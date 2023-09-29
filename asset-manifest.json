@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Segunda-preEntrega/static/css/main.68ba7667.css",
+    "main.js": "/Segunda-preEntrega/static/js/main.79df14e3.js",
+    "static/js/787.7d47686a.chunk.js": "/Segunda-preEntrega/static/js/787.7d47686a.chunk.js",
+    "index.html": "/Segunda-preEntrega/index.html",
+    "main.68ba7667.css.map": "/Segunda-preEntrega/static/css/main.68ba7667.css.map",
+    "main.79df14e3.js.map": "/Segunda-preEntrega/static/js/main.79df14e3.js.map",
+    "787.7d47686a.chunk.js.map": "/Segunda-preEntrega/static/js/787.7d47686a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68ba7667.css",
+    "static/js/main.79df14e3.js"
+  ]
+}
