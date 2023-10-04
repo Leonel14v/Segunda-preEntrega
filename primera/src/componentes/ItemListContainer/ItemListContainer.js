@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { getProductos, getProductosByCategoria } from '../../productos/arrayProductos';
-import Itemlist from '../ItemList/ItemList';
+import ItemList from '../ItemList/ItemList';
 import { useParams } from 'react-router-dom';
 
 const ItemListContainer = () => {
@@ -23,7 +23,7 @@ const ItemListContainer = () => {
 
   return (
     <div>
-      <Itemlist producto={producto} />
+      <ItemList producto={producto} />
     </div>
   );
 };

@@ -5,17 +5,20 @@ import { useParams } from 'react-router-dom';
 
 const ItemDetailContainer = () => {
     const [producto, setProducto] = useState(null);
-    const { itemId } = useParams(); // Llamar a useParams como función para obtener los parámetros
+    const { itemId } = useParams();
+    const itemIdAsNumber = parseInt(itemId, 10);      
 
     useEffect(() => {
-        getProductosById(itemId)
+        getProductosById(itemIdAsNumber)
             .then(response => {
                 setProducto(response);
-            })
+                console.log("Producto obtenido:", response);
+            }) 
             .catch(error => {
                 console.error(error);
+                console.error("Error al obtener el producto:", error);
             });
-    }, [itemId]); // Agregar itemId como dependencia
+    }, [itemIdAsNumber]); // Agregar itemId como dependencia
 
     return (
         <div className='ItemDetailContainer'>

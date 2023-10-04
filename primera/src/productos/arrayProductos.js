@@ -102,7 +102,7 @@ export const getProductosById = (productoId) => {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve(productos.find(prod => prod.id === productoId))
-    })
+    }, 600)
   })
 }
 export const getProductosByCategoria = (productoMarca) => {
